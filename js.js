@@ -1,4 +1,6 @@
-
+setTimeout(function () {
+    $('.loader_bg').fadeToggle();
+  }, 1500);
 var i = 0;
 $('#sube').click(function () {
     if (i < 25) {
