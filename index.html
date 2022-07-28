@@ -13,55 +13,55 @@
 
 </head>
 <body >
-   <header class=" ">
-        <!-- Navbar -->
-        <div class="container-fluid">
-            <nav class="navbar navbar-dark navbar-expand-lg " style="background-color: #00aeef ;">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12">
-                            
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                                    <ul class="navbar-nav">
-                                      <a class="navbar-brand" href="index.html">   
-                                        <img src="assets/img/letras blancas.png" alt="" width="100" height="30">  
-                                    </a>
-                                        
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Nosotros</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="ventas.html">Ventas</a>
-                                        </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Productos
-                                            </a>
-                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Teclados</a></li>
-                                            <li><a class="dropdown-item" href="#">Sillas Gamer</a></li>
-                                            <li><a class="dropdown-item" href="#">Audifonos</a></li>
-                                            </ul>
-                                        </li>
-                                        <form class="form-register row row-cols-lg-auto g-3 align-items-center" onsubmit="return validar();">
-                                          <div class="contenedor-inputs">
-                                              <input class="form-control form-control-sm" type="text" id="nombre" name="nombre" placeholder="Nombre" >
-                                              <input class="form-control form-control-sm" type="text" id="apellidos" name="apellidos" placeholder="Apellidos" >
-                                              <input type="submit" value="Registrar" class="btn-enviar pointer">
-                                          </div>
-                                            <h6 id="resultado"> </h6>
-                                      </form>
-                                    </ul>
-                            </div>
-                            
-                        </div>
-                    </div>                  
-                </div>
-              </nav>
+  <div class="d-flex">
+    <div class="p-2 bg-info flex-fill">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/img/letras blancas.png"  alt="" width="150" height="50">
+        </a>
+    </div>
+
+    <div class="p-2 bg-warning flex-fill">
+        </li>
+        <div class="nav-item">
+            <a class="nav-link" href="#"><strong>Nuestra Empresa</strong></a>
         </div>
+        <div class="nav-2">
+            <a class="nav-link" href="ventas.html"><strong>Ventas</strong></a>
+        </div>
+        <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false"><strong>Productos</strong>
+            </a>
+
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Computadores</a></li>
+                <li><a class="dropdown-item" href="#">Notebooks</a></li>
+                <li><a class="dropdown-item" href="#">Impresoras</a></li>
+                <li><a class="dropdown-item" href="#">Suministros</a></li>
+                <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                <li><a class="dropdown-item" href="#">Solo Gamer</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="p-2 bg-primary flex-fill">
+        <form class="" onsubmit="return validar();">
+
+            <div class="form-group"><input class="form-control" type="text" id="nombre" name="nombre"
+                    placeholder="Nombre"></div>
+            <div class="form-group"><input class="form-control" type="text" id="apellidos" name="apellidos"
+                    placeholder="Apellidos"></div>
+            <div><input type="submit" value="Registrar" class="btn-enviar pointer"></div>
+
+
+        </form>
+    </div>
+
+    <div class="p-2 bg-success text-white flex-fill">
+        <label id="resultado"></label>
+    </div>
+
+</div>
         
 
    </header> 
