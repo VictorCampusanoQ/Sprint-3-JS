@@ -3,8 +3,8 @@ function validar() {
     var apellidos = document.getElementById("apellidos").value;
 
     var resultado = `${nombre}  ${apellidos} `;
-
-    document.getElementById("resultado").innerHTML = resultado;
+    document.getElementById('resultado').style.display= 'block';
+    document.getElementById("resultado").innerHTML = 'Gracias por ser parte de nuestra comunidad! '+ resultado ;
     return false;
 
     
